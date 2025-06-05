@@ -61,7 +61,7 @@ You need to have Node.js and npm (or Yarn) installed on your system.
 
 1.  Clone the repo
     ```sh
-    git clone [https://www.google.com/search?q=https://github.com/your_username/neurapix.git](https://www.google.com/search?q=https://github.com/your_username/neurapix.git)
+    git clone https://github.com/huuduongnguyen/NeuraPix_UI.git
     ```
 2.  Navigate to the project directory
     ```sh
@@ -79,7 +79,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.  
-Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) to view it in your browser.
+Open http://localhost:3000 to view it in your browser.
 
 The page will reload when you make changes.  
 You may also see any lint errors in the console.
@@ -87,7 +87,6 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -97,7 +96,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.  
 Your app is ready to be deployed\!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -116,25 +114,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
   * **Interactive UI:** Modern user interface with header, footer, and dynamic content sections.
   * *(Add any other features your project has)*
 
-## Folder Structure (Inferred)
-
-While not explicitly shown, a typical Create React App structure is expected, with components likely organized within a `src/components` directory for `Header.js`, `Footer.js`, `SharpenSection.js`, and `TestimonialsSection.js`.
-
-  * `public/`: Contains static assets like `sharpen_img.html` (though this seems like a standalone HTML page, it might be for reference or a different part of the project).
-  * `src/`:
-      * `App.js`: Main application component.
-      * `App.css`: Global styles for the App component.
-      * `index.js`: Entry point for the React application.
-      * `index.css`: Global base styles.
-      * `components/`: (Assumed directory for UI components)
-          * `Header.js`
-          * `SharpenSection.js`
-          * `TestimonialsSection.js`
-          * `Footer.js`
-      * `assets/`: (Assumed, for images or other static files used within React components)
-  * `package.json`: Project metadata and dependencies.
-
-The file `signup_style.css` seems to contain styles that are very similar or identical to `sharpen_img.html`. It might be intended for a sign-up page or is a duplicate.
 
 ## Contributing
 
@@ -149,44 +128,8 @@ Don't forget to give the project a star\! Thanks again\!
 4.  Push to the Branch (`git push origin feature/AmazingFeature`)
 5.  Open a Pull Request
 
-## License
-
-Distributed under the [Your License Name] License. See `LICENSE.txt` for more information. (You'll need to add a LICENSE.txt file if you want to specify a license).
-If you don't have one, you can choose one from [https://choosealicense.com/](https://choosealicense.com/). A common one for open-source projects is the MIT License.
 
 ## Contact
 
-Your Name - [@your\_twitter\_handle](https://www.google.com/search?q=https://twitter.com/your_twitter_handle) - your.email@example.com
+Duong Nguyen - nguyenhuuduongbp@gmail.com
 
-Project Link: [https://github.com/your\_username/neurapix](https://www.google.com/search?q=https://github.com/your_username/neurapix)
-
-## Acknowledgements
-
-  * List any resources, tutorials, or other projects that inspired or helped you.
-  * Create React App documentation
-  * ...
-
-<!-- end list -->
-
-```
-
-**Key things to customize:**
-
-* **Project Description:** Make this engaging and informative.
-* **About The Project:** Expand on this significantly.
-* **`your_username`:** Replace this with your actual GitHub username.
-* **`Your License Name` / `LICENSE.txt`:** Choose a license and add the corresponding file.
-* **Contact Information:** Update with your details.
-* **Acknowledgements:** Add any relevant shoutouts.
-* **Features:** Be more specific about what "Neurapix" does.
-* **Folder Structure:** If your `src/components` or other directories are structured differently, update that section. Clarify the purpose of `sharpen_img.html` and `signup_style.css` if they are part of the main React app or separate.
-
-**How to use this:**
-
-1.  Create a new file named `README.md` in the root directory of your `neurapix` project.
-2.  Copy the content above into this new file.
-3.  Edit the sections as needed to accurately reflect your project.
-4.  Commit and push the `README.md` file to your GitHub repository.
-
-Let me know if you have other specific sections you'd like to add or need more help refining any part of it!
-```
