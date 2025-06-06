@@ -1,4 +1,4 @@
-# Neurapix
+# NeuraPix
 
 A brief description of your project. For example: "Neurapix is a React-based web application that allows users to sharpen images and potentially other image manipulation tasks."
 
